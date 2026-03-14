@@ -16,6 +16,7 @@ for param in "$*"; do
     echo "\$* Parameter #$count = $param"
     count=$(( $count + 1 ))
 done
+
 Этот скрипт отображает на экране все параметры одной строкой, а не разделяет их.
 
 Commit : "prepare for merge and rebase"
